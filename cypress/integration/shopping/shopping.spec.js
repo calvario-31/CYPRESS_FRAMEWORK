@@ -5,7 +5,7 @@ import {youCartPage} from "../../support/pageobjects/checkout/YourCart.page";
 import {yourInformationPage} from "../../support/pageobjects/checkout/YourInformation.page";
 import {overViewPage} from "../../support/pageobjects/checkout/Overview.page";
 import {successPage} from "../../support/pageobjects/checkout/Success.page";
-import {userInformation} from "../../support/utilities/userInformation";
+import {userInformation} from "../../support/fakeDataGen/userInformation";
 
 describe('e2e shopping', () => {
 
@@ -33,9 +33,5 @@ describe('e2e shopping', () => {
         successPage.backToProducts()
 
         shoppingPage.verifyPage()
-    })
-
-    afterEach('teardown', () => {
-        cy.logout()
     })
 })

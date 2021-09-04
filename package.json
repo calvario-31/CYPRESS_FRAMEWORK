@@ -4,7 +4,10 @@
   "description": "Cypress complete framework",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run"
+    "test": "npm run prereport && npx cypress run && npm run mochawesome:merge",
+    "delete:reports": "rm -r cypress/results/* || true",
+    "mochawesome:merge": "npx mochawesome-merge \"cypress/results/*.json\" > mochawesome.json && npx marge mochawesome.json",
+    "prereport": "npm run delete:reports"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,11 @@
   "dependencies": {},
   "devDependencies": {
     "cypress": "^8.3.1",
-    "faker": "^5.5.3"
+    "faker": "^5.5.3",
+    "mocha": "^9.1.1",
+    "mocha-junit-reporter": "^2.0.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
   }
 }

@@ -4,7 +4,7 @@ import navigationData from "../../fixtures/navigation/navigation.json"
 describe('About redirection', () => {
 
     beforeEach('setup', () => {
-        cy.fixture('navigation').as('navigationData')
+        cy.fixture('navigation/navigation').as('navigationData')
         cy.login()
     })
 

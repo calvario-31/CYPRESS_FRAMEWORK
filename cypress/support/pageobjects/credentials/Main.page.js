@@ -1,6 +1,5 @@
 class MainPage {
     goToIndex() {
-        cy.log('Going to index')
         cy.visit('/')
     }
 
@@ -15,17 +14,14 @@ class MainPage {
     }
 
     fillUsername(username) {
-        cy.log(`Filling username ${username}`)
         cy.get('#user-name').type(username)
     }
 
     fillPassword(password) {
-        cy.log(`Filling username ${password}`)
         cy.get('#password').type(password)
     }
 
     clickOnLogin() {
-        cy.log('Clicking on login')
         cy.get('#login-button').click()
     }
 
