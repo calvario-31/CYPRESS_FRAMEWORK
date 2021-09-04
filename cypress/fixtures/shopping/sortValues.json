@@ -1,0 +1,22 @@
+{
+  "ascendantAlphabetic": {
+    "value": "az",
+    "firstItemName": "Sauce Labs Backpack",
+    "lastItemName": "Test.allTheThings() T-Shirt (Red)"
+  },
+  "descendantAlphabetic": {
+    "value": "za",
+    "firstItemName": "Test.allTheThings() T-Shirt (Red)",
+    "lastItemName": "Sauce Labs Backpack"
+  },
+  "ascendantPrice": {
+    "value": "lohi",
+    "firstItemPrice": "7.99",
+    "lastItemPrice": "49.99"
+  },
+  "descendantPrice": {
+    "value": "hilo",
+    "firstItemPrice": "49.99",
+    "lastItemPrice": "7.99"
+  }
+}
