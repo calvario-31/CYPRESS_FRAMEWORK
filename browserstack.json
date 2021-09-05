@@ -1,0 +1,28 @@
+{
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": [
+        "latest"
+      ]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "./cypress.json",
+    "cypress_version": "8.3.0",
+    "project_name": "My sandbox project",
+    "build_name": "Build no. 1",
+    "parallels": "5",
+    "npm_dependencies": {
+      "browserstack-cypress-cli": "^1.8.1",
+      "cypress": "^8.3.1",
+      "cypress-multi-reporters": "^1.5.0",
+      "faker": "^5.5.3",
+      "mocha": "^9.1.1",
+      "mochawesome": "^6.2.2",
+      "mochawesome-merge": "^4.2.0",
+      "mochawesome-report-generator": "^5.2.0"
+    }
+  }
+}
