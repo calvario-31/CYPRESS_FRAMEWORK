@@ -6,6 +6,27 @@
       "versions": [
         "latest"
       ]
+    },
+    {
+      "browser": "edge",
+      "os": "Windows 10",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
+      "browser": "chrome",
+      "os": "OS X Big Sur",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
+      "browser": "edge",
+      "os": "OS X Big Sur",
+      "versions": [
+        "latest"
+      ]
     }
   ],
   "run_settings": {
