@@ -1,7 +1,7 @@
 const {mainPage} = require("../../support/pageobjects/credentials/Main.page");
 import invalidCredentialsData from "../../fixtures/credentials/invalidCredentials.json"
 
-describe('credentials test', () => {
+describe('locked out credentials', () => {
 
     beforeEach('setup', () => {
         cy.fixture('credentials/invalidCredentials').as('invalidCredentialsData')

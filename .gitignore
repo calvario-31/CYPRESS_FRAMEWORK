@@ -3,5 +3,5 @@ node_modules/
 **/videos/
 **/screenshots
 mochawesome.json
-results
 mochawesome-report
+reports/

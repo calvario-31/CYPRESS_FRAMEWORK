@@ -3,16 +3,22 @@
   "viewportHeight": 1080,
   "viewportWidth": 1920,
   "chromeWebSecurity": false,
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/reports/mochareports/assets",
   "env": {
     "username": "standard_user",
     "password": "secret_sauce"
   },
   "projectId": "z4qxc4",
-  "reporter": "mochawesome",
+  "reporter": "cypress-multi-reporters",
   "reporterOptions": {
-    "reportDir": "cypress/results",
-    "overwrite": false,
-    "html": false,
-    "json": true
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
   }
 }
