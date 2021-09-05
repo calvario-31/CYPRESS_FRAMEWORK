@@ -5,6 +5,7 @@
   "chromeWebSecurity": false,
   "screenshotOnRunFailure": true,
   "screenshotsFolder": "cypress/reports/mochareports/assets",
+  "videosFolder": "cypress/reports/mochareports/assets",
   "env": {
     "username": "standard_user",
     "password": "secret_sauce"
