@@ -1,5 +1,9 @@
 # CYPRESS FRAMEWORK
 
+Url tested: 
+
+    https://www.saucedemo.com/
+
 To run:
 
     npm test
