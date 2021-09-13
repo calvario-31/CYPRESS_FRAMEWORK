@@ -1,17 +1,15 @@
-# CYPRESS_FRAMEWORK
-
-Complete cypress framework
+# CYPRESS FRAMEWORK
 
 To run:
 
-npm test
+    npm test
 
 Jenkins shell script to run with cypress dashboard:
 
-npm install
-npm test
+    npm install
+    npm test
 
 Jenkins shell script to run with browserstack:
 
-npm install
-npx browserstack-cypress run --sync -u ${BROWSERSTACK_USERNAME} -k ${BROWSERSTACK_ACCESS_KEY} --build-name ${BROWSERSTACK_BUILD_NAME}
+    npm install
+    npx browserstack-cypress run --sync -u ${BROWSERSTACK_USERNAME} -k ${BROWSERSTACK_ACCESS_KEY} --build-name ${BROWSERSTACK_BUILD_NAME}
