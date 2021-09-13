@@ -1,19 +1,19 @@
 # CYPRESS FRAMEWORK
 
-Url tested: 
+* Url tested: 
 
-    https://www.saucedemo.com/
+        https://www.saucedemo.com/
 
-To run:
+* To run:
 
-    npm test
+        npm test
 
-Jenkins shell script to run with cypress dashboard:
+* Jenkins shell script to run with cypress dashboard:
 
-    npm install
-    npm test
+        npm install
+        npm test
 
-Jenkins shell script to run with browserstack:
+* Jenkins shell script to run with browserstack:
 
-    npm install
-    npx browserstack-cypress run --sync -u ${BROWSERSTACK_USERNAME} -k ${BROWSERSTACK_ACCESS_KEY} --build-name ${BROWSERSTACK_BUILD_NAME}
+        npm install
+        npx browserstack-cypress run --sync -u ${BROWSERSTACK_USERNAME} -k ${BROWSERSTACK_ACCESS_KEY} --build-name ${BROWSERSTACK_BUILD_NAME}
